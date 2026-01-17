@@ -1,23 +1,11 @@
 public class Student {
-    private String name;
-    private int age;
-    private double grade;
-    private String studentId;
-    private String contact;
+    String name;
+    int age;
+    double mark1;
+    double mark2;
+    double mark3;
 
-    public Student(String name, int age, double grade, String studentId, String contact) {
-        this.name = name;
-        this.age = age;
-        this.grade = grade;
-        this.studentId = studentId;
-        this.contact = contact;
-    }
-
-    public void displayInfo() {
-        System.out.println("ID: " + studentId);
-        System.out.println("Name: " + name);
-        System.out.println("Age: " + age);
-        System.out.println("Grade: " + grade);
-        System.out.println("Contact: " + contact);
+    double calculateAverage() {
+        return (mark1 + mark2 + mark3) / 3;
     }
 }
