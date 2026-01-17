@@ -1,13 +1,15 @@
 # Testing Evidence
 
 ## Test Case 1
-Input:
-Student ID: S001  
-Name: John  
-Age: 20  
-Grade: 85.5  
+=== Student Information System (Basic Version) ===
+Enter Student Name: John
+Enter Age: 20
+Enter Mark 1: 80
+Enter Mark 2: 90
+Enter Mark 3: 85
 
-Expected Output:
-Student details displayed correctly.
+--- Student Details ---
+Name: John
+Age: 20
+Average Marks: 85.0
 
-Status: PASS
