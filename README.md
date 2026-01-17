@@ -1,19 +1,37 @@
 # Student Information System
 
 ## Project Overview
-This is a Java-based Student Information System that allows storing and displaying student details.
+The Student Information System is a Java-based console application developed as part of the Week 1 internship task at The Developers Arena.  
+The purpose of this project is to understand Java basics such as classes, objects, input handling, and menu-driven programs.
 
-## Features
-- Add student details
-- View student information
-- Menu-driven console application
+## Objectives
+- Learn Java syntax and object-oriented programming
+- Store and display student information
+- Practice user input using Scanner
+- Implement basic validation and formatting
 
 ## Technologies Used
 - Java
-- Scanner class
-- ArrayList
+- JDK 8 or above
+- GitHub for version control
 
-## How to Run
-1. Install JDK
-2. Compile: javac StudentInformationSystem.java
-3. Run: java StudentInformationSystem
+## Project Features
+- Add student details
+- View student details
+- Basic validation for age and grade
+- Menu-driven console interface
+
+## Folder Structure
+-src/ → Java source code
+-docs/ → Project documentation
+-test_data/ → Sample input data
+-README.md → Project overview
+
+## How to Run the Project
+1. Install JDK on your system
+2. Clone the repository
+3. Open the project in any Java IDE
+4. Compile and run `StudentInformationSystem.java`
+
+## Author
+Gowthamkishore
